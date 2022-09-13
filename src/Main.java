@@ -48,6 +48,7 @@ public class Main {
         for (var person: people) {
             System.out.println(person);
         }
+        System.out.println();
         System.out.println("\nSorted by name: \n");
         Arrays.sort(people, Person.PersonNameComparator);
         for (var person: people) {
